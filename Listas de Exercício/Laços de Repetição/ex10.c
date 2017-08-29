@@ -12,11 +12,11 @@ int main(void){
     printf("Digite a taxa de juros ao mes: ");
     scanf("%lf",&r);
 
-    printf("Número de meses              Investimento Acumulado\n ");
+    printf("Número de meses              Investimento Acumulado\n");
     for(i=1;i<=n;i++){
         a *= (1+r);
-        printf("%d",i);
-        printf("%lf\n",a);
+        printf("%-29d",i);
+        printf("%.2lf\n",a);
     }
     return 0;
 }
