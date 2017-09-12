@@ -13,7 +13,7 @@ int main(void){
     marcado[0]=1;
     marcado[1]=1;
 
-    for(i=2;i<=n;i++){
+    for(i=2;i<=sqrt(n);i++){
         int j;
         if(!marcado[i]){
             for(j=2;i*j<=n;j++){
