@@ -10,6 +10,7 @@ void find(char text[],char pattern[]){
         for(j=0;j<m;j++){
             if(pattern[j]!=text[i+j]){
                 ocorre = 0;
+                break;
             }
         }
         if(ocorre){
