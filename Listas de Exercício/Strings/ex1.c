@@ -27,7 +27,7 @@ int count_lastnames(char str[]){
 int main(void){
     char nome[80];
     printf("Digite um nome completo: ");
-    scanf("%79[^\n]s",nome);
+    scanf("%79[^\n]%*c",nome);
     printf("O nome %s possui %d sobrenomes",nome,count_lastnames(nome));
     return 0;
 }
