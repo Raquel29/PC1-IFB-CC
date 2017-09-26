@@ -4,12 +4,10 @@
 
 
 int main(void){
-    int temp[MAX];
+    double temp[MAX];
     int n;
     int i;
     double media;
-    int maior_temp, dia_maior_temp;
-    int menor_temp, dia_menor_temp;
     printf("Entre a quantidade de dias: ");
     scanf("%d",&n);
     for(i=0;i<n;i++){
