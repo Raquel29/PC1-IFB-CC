@@ -12,7 +12,7 @@ int main(void){
     scanf("%d",&n);
     for(i=0;i<n;i++){
         printf("Entre a temperatuda do dia %d: ",i);
-        scanf("%d",&temp[i]);
+        scanf("%lf",&temp[i]);
     }
 
     media = 0.0;
