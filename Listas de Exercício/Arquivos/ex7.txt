@@ -1,0 +1,6 @@
+Fabricante,Modelo,Ano,Preço
+FIAT,Argo,2017,60000
+Volkswagen,Polo,2018,80000
+Ford,Fiesta,2014,28500
+Chevrolet,Vectra,2008,19000
+Ferrari,F-40,1992,9999999.99

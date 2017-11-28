@@ -28,4 +28,7 @@ int main(int argc,char* argv[]){
         return 0;
     }
     concatena(arq1,arq2,arq3);
+    fclose(arq1);
+    fclose(arq2);
+    fclose(arq3);
 }
