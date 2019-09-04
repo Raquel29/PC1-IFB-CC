@@ -113,7 +113,7 @@ user_binary = os.path.join(tmp_folder, os.path.splitext(
     os.path.basename(source_file))[0])
 command = ' '.join([C_COMPILER, source_file, C_FLAGS,
                     '-o', user_binary, C_LD_FLAGS])
-print(command.split(' '))
+print(command)
 p = subprocess.run(command.split(' '))
 if(p.returncode):
     print('CE: compilation failed')
