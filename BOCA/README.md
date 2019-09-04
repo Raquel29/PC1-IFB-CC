@@ -22,3 +22,9 @@ Dentro de cada pasta de problema você irá encontrar uma pasta `src` que possui
 
 **Observação**: você deverá estar na pasta do script `run.py` para que o corretor funcine.
 
+
+## Requisitos para rodar o corretor local
+
+- python3>=3.4
+- g++>=5
+- gcc>=5
